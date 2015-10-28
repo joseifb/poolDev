@@ -1,0 +1,128 @@
+
+@font-face {
+  font-family: 'agenda';
+  src: url('../fonts/agenda-bold.ttf') format('truetype');     
+
+}
+
+
+
+@font-face {
+ font-family: 'metdemo';
+  src: url('../fonts/metdemo.ttf') format('truetype');          
+
+}
+
+@font-face {
+  font-family: 'msyi';
+  src: url('../fonts/msyi.ttf') format('truetype');     
+
+}
+
+
+div#parent{
+  background: #510000;
+  color: #ffffff;
+  letter-spacing: -5px;
+
+}
+
+
+  .sin { 
+    font-family: 'agenda', Fallback, sans-serif;
+    font-size: 3.6em;
+    letter-spacing: -.04em;
+
+    -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+      -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+      -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      display: inline-block;
+      opacity: 1;
+      position: relative;
+      z-index: 1;
+
+  }
+  .f {
+    font-family: 'metdemo', Fallback, sans-serif;
+    font-size: 4.5em;
+    letter-spacing: -.19em;
+    color: #0083BB;
+
+    -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+      -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+      -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      display: inline-block;
+      opacity: 1;
+      position: relative;
+      z-index: 1;
+  }
+  .onia {
+    font-family: 'metdemo', Fallback, sans-serif;
+    font-size: 70px;
+    letter-spacing: -7.8px;
+  }
+
+ 
+  .capital {
+    font-size: 60px;
+    letter-spacing: -6.8px;
+  }
+  .nocapital {
+    font-size: 40px;
+    letter-spacing: -2.8px;
+  }
+  .nocapital2 {
+    font-size: 40px;
+    letter-spacing: -5.8px;
+  }
+  .digital {
+    top: 15px;
+  }
+  
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .digital {
+    top: 5px;
+  }
+}
+@media (min-width: 901px) {
+  .digital {
+    top: 10px;
+  }
+}
+.capital {
+    font-family: 'titania', Fallback, sans-serif;
+  }
+.nocapital {
+  font-family: 'titania', Fallback, sans-serif;
+}
+.nocapital2 {
+  font-family: 'titania', Fallback, sans-serif;
+}
+
+.espacio{
+font-family: 'titania', Fallback, sans-serif;
+
+    font-size: 27px;
+
+}
+
+.digital{
+font-family: 'myriad', Fallback, sans-serif;
+font-size: 23px;
+letter-spacing: -1px;
+position: absolute;
+z-index: 1;
+
+
+}

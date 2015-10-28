@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>8 Ball Pool</title>
+    <meta charset="utf-8">
+    <link href="/lib/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/lib/system.js"></script>
+</head>
+<body>
+
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      //var socket = io();
+      //socket.on('poolmove', function(data){
+      	// do something with data
+      	//console.log(data);
+      //});
+    </script>
+
+<div id="game"></div>
+
+<script type="text/javascript">
+
+    System.import('/lib/phaser.js').then(function(){
+        System.import('game.js');
+    });
+
+</script>
+
+<div align="center"><a href="/index.html">Back</a></div>
+
+</body>
+</head>
